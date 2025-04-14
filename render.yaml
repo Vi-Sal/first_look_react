@@ -3,6 +3,6 @@ services:
     name: my-react-app
     env: static
     buildCommand: npm run build
-    startCommand: npx serve dist
+    startCommand: npx serve dist  # Assuming you're using Vite with dist folder
     git:
-      branch: main
+      branch: master  # Change to master instead of main
