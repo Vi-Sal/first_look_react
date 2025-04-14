@@ -4,5 +4,3 @@ services:
     env: static
     buildCommand: npm run build
     startCommand: npx serve dist  # Assuming you're using Vite with dist folder
-    git:
-      branch: master  # Change to master instead of main
